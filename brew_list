@@ -1,0 +1,9 @@
+ack                             git-extras                      mobile-shell                    python                          tldr
+autojump                        gnu-sed                         node                            readline                        tmux
+battery                         go                              oniguruma                       reattach-to-user-namespace      tree
+bunka                           gom-awesome                     openssl                         redis                           utf8proc
+cctools                         jq                              p7zip                           ruby                            vim
+chruby                          libevent                        pcre                            ruby-install                    wget
+dash                            libffi                          perl                            spark                           zsh
+gdbm                            libyaml                         protobuf                        sqlite
+git                             libzip                          pwgen                           tig
