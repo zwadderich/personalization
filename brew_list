@@ -7,3 +7,8 @@ chruby                          libevent                        pcre            
 dash                            libffi                          perl                            spark                           zsh
 gdbm                            libyaml                         protobuf                        sqlite
 git                             libzip                          pwgen                           tig
+
+chefdk                              filezilla                           java                                ngrok                               tunnelblick
+dash                                git                                 jumpcut                             oki-mc573series-driver              vagrant
+docker                              hipchat                             mou                                 slack                               virtualbox
+🌈                                                                                                                                                            
