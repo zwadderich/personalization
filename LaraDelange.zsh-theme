@@ -1,7 +1,11 @@
 # Oh-my-zsh theme - Lara Delange
 
+autoload -Uz vcs_info
+
+zstyle ':vcs_info:*' check-for-changes true
+
 ZSH_THEME_GIT_PROMPT_DIRTY=‼️
-ZSH_THEME_GIT_PROMPT_CLEAN=✔️
+ZSH_THEME_GIT_PROMPT_CLEAN=👌
 
 function parse_git_dirty() {
   local STATUS=''
@@ -26,8 +30,10 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty ) ]/ "
         }
 
+setopt prompt_subst
+
 PROMPT='%{${fg_bold[yellow]}%}%n%{$reset_color%}%{${fg[yellow]}%}@%m%{$reset_color%} $(git_prompt_info)%(?,,%{${fg_bold[white]}%}[%?]%{$reset_color%} )%{$fg[yellow]%}%#%{$reset_color%} '
-#RPROMPT='%{$fg[white]%}%~%{$reset_color%}$(parse_git_branch)'
 RPROMPT='%{$fg[yellow]%}  $(parse_git_branch )  %{$fg[white]%} %~%{$reset_color%}'
 
-PS1='%(?.🌈.⚡️) '
+PS1='%(?.🦄.🔥) '
+autoload -U add-zsh-hook
