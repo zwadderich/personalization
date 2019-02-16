@@ -1,10 +1,10 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/zwadderich/.oh-my-zsh
+export ZSH=/Users/laradelange/.oh-my-zsh
 
 # Load all .sh files in the .bash.d/ dir
-for i in $HOME/.bash.d/*.sh;
-do source $i; done
-unset i
+#for i in $HOME/.bash.d/*.sh;
+#do source $i; done
+#unset i
 
 ZSH_THEME="lara"
 
@@ -23,10 +23,10 @@ source $ZSH/oh-my-zsh.sh
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby 2.3.1
+# chruby 2.3.1
 
 # Chef
-export CHEF_ENV=production
+# export CHEF_ENV=production
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
@@ -44,6 +44,10 @@ alias kdes="kitchen destroy"
 alias gc="git clone"
 alias gs="git status"
 alias ga="git add"
-s() { ssh -l root $1 || ssh -l root "$1.openminds.be" }
-
+alias amend="git add . && git commit --amend && git push --force-with-lease"
+alias com="git commit"
+alias hungry="cookstyle . && foodcritic ."
+alias gpf="git push --force-with-lease"
 digsx() { digx `digs $1`}
+
+eval "$(chef shell-init zsh)"
