@@ -1,14 +1,14 @@
-ack                             git-extras                      mobile-shell                    python                          tldr
-autojump                        gnu-sed                         node                            readline                        tmux
-battery                         go                              oniguruma                       reattach-to-user-namespace      tree
-bunka                           gom-awesome                     openssl                         redis                           utf8proc
-cctools                         jq                              p7zip                           ruby                            vim
-chruby                          libevent                        pcre                            ruby-install                    wget
-dash                            libffi                          perl                            spark                           zsh
-gdbm                            libyaml                         protobuf                        sqlite
-git                             libzip                          pwgen                           tig
-
-chefdk                              filezilla                           java                                ngrok                               tunnelblick
-dash                                git                                 jumpcut                             oki-mc573series-driver              vagrant
-docker                              hipchat                             mou                                 slack                               virtualbox
-🌈                                                                                                                                                            
+ack                             gdbm                            libgcrypt                       oniguruma                       ruby
+ansible                         geoip                           libgpg-error                    openssl                         sqlite
+autoconf                        gettext                         libidn2                         openssl@1.1                     ssh-copy-id
+autojump                        git                             libmaxminddb                    p11-kit                         tldr
+automake                        git-extras                      libsodium                       packer                          tmux
+bash                            glib                            libtasn1                        pcre                            tree
+brew-pip                        gmp                             libunistring                    pcre2                           vim
+c-ares                          gnu-sed                         libyaml                         perl                            wget
+cdrtools                        gnutls                          libzip                          pure-ftpd                       wireshark
+chruby                          gradle                          lua                             python                          xz
+curl                            icu4c                           lua@5.1                         python3                         zsh
+dash                            jq                              nettle                          python@2                        zsh-completions
+docker                          libevent                        nmap                            readline
+docker-compose                  libffi                          node                            reattach-to-user-namespace
